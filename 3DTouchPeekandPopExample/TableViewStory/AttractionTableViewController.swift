@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AtractionTableViewController: UITableViewController, UISearchResultsUpdating, UISearchBarDelegate {
+class AttractionTableViewController: UITableViewController, UISearchResultsUpdating, UISearchBarDelegate {
     
     var attractionImages = [String] ()
     var attractionNames = [String] ()
@@ -62,6 +62,11 @@ class AtractionTableViewController: UITableViewController, UISearchResultsUpdati
         navigationItem.searchController = searchController
         definesPresentationContext = true
         
+        if traitCollection.forceTouchCapability == .available {
+            registerForPreviewing(with: self, sourceView: view)
+        } else {
+            print("3D Touch Not Available")
+        }
     }
     
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {

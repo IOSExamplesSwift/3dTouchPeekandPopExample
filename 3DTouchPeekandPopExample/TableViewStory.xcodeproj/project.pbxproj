@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D4E6C14205B3127002B06F6 /* AtractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6C13205B3127002B06F6 /* AtractionTableViewController.swift */; };
+		2D4E6C14205B3127002B06F6 /* AttractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6C13205B3127002B06F6 /* AttractionTableViewController.swift */; };
 		2D4E6C16205B317E002B06F6 /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6C15205B317E002B06F6 /* AttractionTableViewCell.swift */; };
 		2D4E6C18205C8490002B06F6 /* AttractionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6C17205C8490002B06F6 /* AttractionDetailViewController.swift */; };
+		2D56495B209BD89D00021836 /* AttractionTableViewController+UIViewControllerPreviewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D56495A209BD89D00021836 /* AttractionTableViewController+UIViewControllerPreviewing.swift */; };
 		2DCF000A205B2C42007D96C6 /* TableViewStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF0009205B2C42007D96C6 /* TableViewStoryTests.swift */; };
 		2DCFFFF2205B2C42007D96C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFFFF1205B2C42007D96C6 /* AppDelegate.swift */; };
 		2DCFFFF7205B2C42007D96C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCFFFF5205B2C42007D96C6 /* Main.storyboard */; };
@@ -29,9 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D4E6C13205B3127002B06F6 /* AtractionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtractionTableViewController.swift; sourceTree = "<group>"; };
+		2D4E6C13205B3127002B06F6 /* AttractionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewController.swift; sourceTree = "<group>"; };
 		2D4E6C15205B317E002B06F6 /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
 		2D4E6C17205C8490002B06F6 /* AttractionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetailViewController.swift; sourceTree = "<group>"; };
+		2D56495A209BD89D00021836 /* AttractionTableViewController+UIViewControllerPreviewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AttractionTableViewController+UIViewControllerPreviewing.swift"; sourceTree = "<group>"; };
 		2DCF0000205B2C42007D96C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DCF0005205B2C42007D96C6 /* TableViewStoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewStoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCF0009205B2C42007D96C6 /* TableViewStoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewStoryTests.swift; sourceTree = "<group>"; };
@@ -98,9 +100,10 @@
 				2DCFFFFD205B2C42007D96C6 /* LaunchScreen.storyboard */,
 				2DCF0000205B2C42007D96C6 /* Info.plist */,
 				2DCFFFF8205B2C42007D96C6 /* TableViewStory.xcdatamodeld */,
-				2D4E6C13205B3127002B06F6 /* AtractionTableViewController.swift */,
+				2D4E6C13205B3127002B06F6 /* AttractionTableViewController.swift */,
 				2D4E6C15205B317E002B06F6 /* AttractionTableViewCell.swift */,
 				2D4E6C17205C8490002B06F6 /* AttractionDetailViewController.swift */,
+				2D56495A209BD89D00021836 /* AttractionTableViewController+UIViewControllerPreviewing.swift */,
 			);
 			path = TableViewStory;
 			sourceTree = "<group>";
@@ -219,8 +222,9 @@
 				2D4E6C16205B317E002B06F6 /* AttractionTableViewCell.swift in Sources */,
 				2DCFFFFA205B2C42007D96C6 /* TableViewStory.xcdatamodeld in Sources */,
 				2D4E6C18205C8490002B06F6 /* AttractionDetailViewController.swift in Sources */,
-				2D4E6C14205B3127002B06F6 /* AtractionTableViewController.swift in Sources */,
+				2D4E6C14205B3127002B06F6 /* AttractionTableViewController.swift in Sources */,
 				2DCFFFF2205B2C42007D96C6 /* AppDelegate.swift in Sources */,
+				2D56495B209BD89D00021836 /* AttractionTableViewController+UIViewControllerPreviewing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
